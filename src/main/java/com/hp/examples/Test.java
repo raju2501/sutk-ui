@@ -17,7 +17,7 @@ public class Test {
 		fun();
 		
 		logger.debug("fun", "fun(1,2,3,4,5)");
-		fun(1, 2, 3, 4, 5);
+		fun(1, 2, 3, 4);
 
 		System.out.println(System.getProperty("user.dir"));
 		Date d = new Date();
