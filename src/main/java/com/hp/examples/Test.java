@@ -12,10 +12,12 @@ public class Test {
 	public static void main(String[] args) {
 		logger.debug("fun", "fun(100)");
 		fun(100);
-		logger.debug("fun", "fun(1,2,3,4)");
-		fun(1, 2, 3, 4);
+	
 		logger.debug("fun", "fun()");
 		fun();
+		
+		logger.debug("fun", "fun(1,2,3,4,5)");
+		fun(1, 2, 3, 4, 5);
 
 		System.out.println(System.getProperty("user.dir"));
 		Date d = new Date();
